@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de personas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>LISTADO DE PERSONAS</h1>
+    <ul>
+    </ul>
+    <div class="user_configuration">
+        <div class="btn_confg_user">
+            <button onclick="personas.añadir_personas()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                </svg>
+            </button>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Nombre" name="nombre" required>
+            <input type="text" placeholder="Apellido" name="apellido" required>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
